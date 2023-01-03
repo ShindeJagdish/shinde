@@ -1,0 +1,32 @@
+
+/*  mobile view css */
+.wrapper{
+    background-color: red;
+    color: white;
+
+}
+
+.secondaryWrapper{
+    composes : wrapper ;
+    color: blue;
+    display: none;
+
+}
+
+
+
+@media screen and (min-width : 1024px){
+
+    /*  dekstop view wali css */
+
+
+    .secondaryWrapper{
+       
+        display: unset;
+    
+    }
+
+
+    
+   
+}
